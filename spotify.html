@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Spotify Clone - A Project for Semester-5</title>
+    <link rel="stylesheet" href="spotify.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="SongList"></div>
+      <h1>Liked Songs of T&Z</h1>
+      <div class="songItemContainer">
+        <div>
+          <div class="songItem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songName">Kal Ho Na Ho</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:21<i
+                  id="1"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/2.jpg" alt="2" />
+            <span class="songName">Mitwa</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >06:22<i
+                  id="2"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/3.jpg" alt="3" />
+            <span class="songName">Hawayein</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >04:49<i
+                  id="3"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/4.jpg" alt="4" />
+            <span class="songName">Chaleya</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >03:20<i
+                  id="4"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/5.jpg" alt="5" />
+            <span class="songName">Challa</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:20<i
+                  id="5"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/6.jpg" alt="6" />
+            <span class="songName">Sau Dard</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:45<i
+                  id="6"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/7.jpg" alt="7" />
+            <span class="songName">Safar</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >06:05<i
+                  id="7"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/8.jpg" alt="8" />
+            <span class="songName">Jab Tak Hai Jaan</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >03:51<i
+                  id="8"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/9.jpg" alt="9" />
+            <span class="songName">Heer</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >05:14<i
+                  id="9"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/10.jpg" alt="10" />
+            <span class="songName">Tujh Mein Rab Dikhta Hai</span>
+            <span class="songListPlay"
+              ><span class="timestamp"
+                >04:41<i
+                  id="10"
+                  class="far songItemPlay fa-play-circle"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="SongBanner"></div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <i class="fas fa-3x fa-step-backward" id="pervious"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" width="42px" alt="" id="gif" />
+        <span id="masterSongName" Kal Ho Na Ho></span>
+      </div>
+    </div>
+    <script src="spotify.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8c5c0fb196.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
